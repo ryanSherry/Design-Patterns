@@ -1,5 +1,6 @@
 package strategyPattern.program;
 
+import strategyPattern.models.behaviors.FlyingWithWings;
 import strategyPattern.models.ducks.Duck;
 import strategyPattern.models.ducks.MallardDuck;
 import strategyPattern.models.ducks.RubberDuck;
@@ -15,7 +16,8 @@ public class Program {
 		
 		Duck rubberDuck = new RubberDuck();
 		rubberDuck.display();
-		rubberDuck.performQuack();  
+		rubberDuck.performQuack();		
+		rubberDuck.performFly();
 		
 	}
 

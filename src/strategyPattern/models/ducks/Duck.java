@@ -24,6 +24,14 @@ public abstract class Duck {
 		System.out.println("Swimming like a duck!");
 	}
 	
+	public void setFlyingBehavior(FlyingBehavior fb) {
+		flyingBehavior = fb;
+	}
+	
+	public void setQuackingBehavior(QuackBehavior qb) {
+		quackBehavior = qb;
+	}
+	
 	public abstract void display();
 	
 }
