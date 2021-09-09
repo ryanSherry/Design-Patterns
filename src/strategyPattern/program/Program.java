@@ -1,4 +1,8 @@
-package strategyPattern;
+package strategyPattern.program;
+
+import strategyPattern.models.ducks.Duck;
+import strategyPattern.models.ducks.MallardDuck;
+import strategyPattern.models.ducks.RubberDuck;
 
 public class Program {
 
@@ -6,12 +10,12 @@ public class Program {
 		//test ducks
 		Duck mallardDuck = new MallardDuck();
 		mallardDuck.display();
-		mallardDuck.quack();
+		mallardDuck.performQuack();
 		mallardDuck.swim();
 		
 		Duck rubberDuck = new RubberDuck();
 		rubberDuck.display();
-		rubberDuck.quack();  
+		rubberDuck.performQuack();  
 		
 	}
 
