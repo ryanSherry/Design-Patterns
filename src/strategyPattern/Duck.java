@@ -1,4 +1,4 @@
-package Models;
+package strategyPattern;
 
 public abstract class Duck {
 	public Duck() {

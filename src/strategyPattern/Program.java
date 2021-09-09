@@ -1,8 +1,4 @@
-package Program;
-
-import Models.Duck;
-import Models.MallardDuck;
-import Models.RubberDuck;
+package strategyPattern;
 
 public class Program {
 

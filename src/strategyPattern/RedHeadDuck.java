@@ -1,4 +1,4 @@
-package Models;
+package strategyPattern;
 
 public class RedHeadDuck extends Duck implements Flyable {
 
