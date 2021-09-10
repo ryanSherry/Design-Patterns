@@ -24,7 +24,7 @@ public class DecimalData implements Subject {
 	@Override
 	public void removeObserver(Observer o) {
 		int index = observers.indexOf(o);
-		if (index > 0) observers.remove(index);
+		if (index >= 0) observers.remove(index);
 	}
 	
 	@Override
